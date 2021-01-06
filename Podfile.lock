@@ -1,0 +1,45 @@
+PODS:
+  - Charts (3.6.0):
+    - Charts/Core (= 3.6.0)
+  - Charts/Core (3.6.0)
+  - FanMenu (0.7.5):
+    - Macaw
+  - lottie-ios (3.1.9)
+  - Macaw (0.9.7):
+    - SWXMLHash
+  - Realm (10.1.2):
+    - Realm/Headers (= 10.1.2)
+  - Realm/Headers (10.1.2)
+  - RealmSwift (10.1.2):
+    - Realm (= 10.1.2)
+  - SWXMLHash (5.0.1)
+
+DEPENDENCIES:
+  - Charts
+  - FanMenu
+  - lottie-ios
+  - Realm
+  - RealmSwift
+
+SPEC REPOS:
+  trunk:
+    - Charts
+    - FanMenu
+    - lottie-ios
+    - Macaw
+    - Realm
+    - RealmSwift
+    - SWXMLHash
+
+SPEC CHECKSUMS:
+  Charts: b1e3a1f5a1c9ba5394438ca3b91bd8c9076310af
+  FanMenu: f26be76147954666be0b89ae6ffeb12b72167f2b
+  lottie-ios: 3a3758ef5a008e762faec9c9d50a39842f26d124
+  Macaw: 4a931baf9a9826b06d0d8ecf300014c962ab9d50
+  Realm: 031fdd4be7094d01b43af1a5e49766ab644bb800
+  RealmSwift: 43cf2e114baa9d17d34eb81e7d0def31f21cd444
+  SWXMLHash: 9cc0c2e4807926c74377724aa8722ee5707a0485
+
+PODFILE CHECKSUM: 0891d7d4586370722dbd79dd9b2559f13761abd1
+
+COCOAPODS: 1.10.0
