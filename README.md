@@ -1,4 +1,4 @@
-# Grocery Management System in iOS Version
+# Grocery Management System for iOS
 
 
 Preprocess photos using the Vision framework and classify them with a Core ML model and darknet YOlOv4.
