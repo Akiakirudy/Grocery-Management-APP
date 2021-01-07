@@ -18,7 +18,7 @@ protocol MenuManagerDelegate {
 struct MenuManager {
     var delegate: MenuManagerDelegate?
     func menuSearch(ingridients: String) {
-        let urlString = "https://api.edamam.com/search?q=\(ingridients)&app_id=7c5ab668&app_key=e1917c87e474e39ee00379eced6a2bfd&from=0&to=10"
+        let urlString = "APIURL"
         performRequest(with: urlString)
     }
     
@@ -34,7 +34,7 @@ struct MenuManager {
                 if let safeData = data {
                     if let menu = self.parseJSON(safeData) {
                         //print(menu)
-                        self.delegate?.didUpdateMenu(self, repilist: menu)//他のfile で定義したdidupdateの式をdelegateで任せている
+                        self.delegate?.didUpdateMenu(self, repilist: menu)//他のfile で定義したdidupdateの式をdelegateで任せる
                     }
                 }
             }
